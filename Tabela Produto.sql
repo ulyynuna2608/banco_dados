@@ -1,4 +1,26 @@
 //Prova 14/03 (Tipos de dados SQL, Criar Tabela, Inserir)\\
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Conteudo da Prova{
+create table disciplina01  (
+codigodisc int primary key not null identity,
+nome nvarchar(50) not null,
+periodo nvarchar(50) not null,
+cargah smallint not null,
+professor nvarchar(50) not null
+
+)
+
+select * from disciplina01
+
+ insert into disciplina01 values ('Ingles', 'Manhã', '80', 'Luciano Huck' )
+ insert into disciplina01 values ('Português', 'Manhã', '120', 'Fausto Silva' )
+ insert into disciplina01 values ('Matemática', 'Tarde', '120', 'Luciana Gimenez' )
+ insert into disciplina01 values ('Geografia', 'Manhã', '80', 'Willlan Boner' )
+ insert into disciplina01 values ('História', 'Manhã', '80', 'Fatima Bernardes' )
+ insert into disciplina01 values ('Física', 'Tarde', '80', 'Patricia Poeta' )
+ }
+ 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 select * from produto1
 
